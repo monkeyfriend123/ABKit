@@ -1,0 +1,6 @@
+framework module ABKit {
+  umbrella header "ABKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
