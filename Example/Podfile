@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ABKit_Example' do
+  pod 'ABKit', :path => '../'
+
+  target 'ABKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
